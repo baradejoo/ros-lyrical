@@ -438,6 +438,23 @@ mocap4r2_robot_gt_msgs:
   url: https://github.com/MOCAP4ROS2-Project/mocap4r2.git
   version: 0.0.7
   additional_folder: mocap4r2_robot_gt/mocap4r2_robot_gt_msgs
+# Official ODrive Robotics ROS 2 driver (ODrive Pro/S1/Micro over SocketCAN).
+# Not released in rosdistro and has no tags, so pin a commit from upstream main.
+odrive_botwheel_explorer:
+  rev: 182e04045aca99046f09e7d921865b60e4c04f25
+  url: https://github.com/odriverobotics/ros_odrive.git
+  version: 0.0.0
+  additional_folder: odrive_botwheel_explorer
+odrive_can:
+  rev: 182e04045aca99046f09e7d921865b60e4c04f25
+  url: https://github.com/odriverobotics/ros_odrive.git
+  version: 0.0.1
+  additional_folder: odrive_node
+odrive_ros2_control:
+  rev: 182e04045aca99046f09e7d921865b60e4c04f25
+  url: https://github.com/odriverobotics/ros_odrive.git
+  version: 0.0.1
+  additional_folder: odrive_ros2_control
 ros2_easy_test:  # Until: https://github.com/felixdivo/ros2-easy-test/issues/53
   rev: 59ce58ef05f39826eaaa50c986eb039729a8c61e
   url: https://github.com/felixdivo/ros2-easy-test.git

@@ -268,6 +268,9 @@ packages_select_by_deps:
       - libcamera
       - mujoco_ros2_control  # Isaac ROS deploy / Unitree G1 simulation
       - nobleo_socketcan_bridge  # Depends on socketcan
+      - odrive_botwheel_explorer  # Depends on socketcan (via odrive_ros2_control)
+      - odrive_can  # Depends on socketcan
+      - odrive_ros2_control  # Depends on socketcan
       - ros2_socketcan  # Depends on socketcan
       - rosgraph_monitor
       - usb_cam  # Depends on v4l
